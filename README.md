@@ -23,6 +23,8 @@ Viewing actual implicit parameters
 Viewing actual implicit parameters on implicit conversions
 ----------------------------------------------------------
 
+The following requires modifying the code:
+
 1.  Perform steps in 'Viewing implicit conversions'
 
 2.  Highlight appropriate implicit conversion function.
