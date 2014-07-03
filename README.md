@@ -3,7 +3,7 @@ Debugging Scala Implicits in IntelliJ
 
 This document outlines several complementary approaches for statically analysing Scala implicits in IntelliJ.
 
-JetBrains provides a [document explaining the first two steps][working-with-scala-implicit-conversions], but does not include the clarification around analysing pimped methods.
+JetBrains provides a [document explaining the first two steps][working-with-scala-implicit-conversions], but does not include the clarification around analysing enriched objects.
 
 *Note: These shortcuts are for OSX.*
 
@@ -12,7 +12,7 @@ Viewing implicit conversions<a name="implicit-conversions"></a>
 
 1.  Highlight the implicitly converted object.
 
-    **Important:** When investigating a pimped method, you MUST highlight the object only, NOT the pimped method. This is because the object is what's being converted. Selecting the method too will attempt to resolve the implicit conversion on the type returned by the pimped method.
+    **Important:** When investigating an enriched object, you MUST highlight the object only, NOT the injected method. This is because the object is what's being converted; selecting the method will resolve implicit conversions on the object *returned* by that method.
 
 2.  `CTRL` + `Q`
 
