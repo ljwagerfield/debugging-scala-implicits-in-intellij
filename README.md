@@ -28,7 +28,7 @@ Viewing actual implicit parameters<a name="actual-implicits"></a>
 Viewing actual implicit parameters on implicit conversions<a name="actual-implicits-on-conversions"></a>
 ----------------------------------------------------------
 
-The following requires modifying the code:
+The following requires temporary code modification:
 
 1.  Perform steps in [Viewing implicit conversions](#implicit-conversions).
 
