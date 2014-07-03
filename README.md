@@ -3,9 +3,9 @@ Debugging Scala Implicits in IntelliJ
 
 This document outlines several complementary approaches for statically analysing Scala implicits in IntelliJ.
 
-JetBrains already provides a [document explaining the first two steps][working-with-scala-implicit-conversions], but does not include the clarification around analysing pimped methods.
+JetBrains provides a [document explaining the first two steps][working-with-scala-implicit-conversions], but does not include the clarification around analysing pimped methods.
 
-*Note: these shortcuts are for OSX*
+*Note: These shortcuts are for OSX.*
 
 Viewing implicit conversions<a name="implicit-conversions"></a>
 ----------------------------
