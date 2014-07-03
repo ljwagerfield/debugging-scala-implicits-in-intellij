@@ -8,7 +8,7 @@ Viewing implicit conversions
 
     **Important:** When investigating a conversion that is introducing a pimped method, you MUST highlight the object only, NOT the pimped method. This is because the object is the thing being converted. Selecting the method too will attempt to resolve the implicit conversion on the type returned by the pimped method, which probably isn't what you want to do!
 
-2.  CTRL+Q
+2.  `CTRL` + `Q`
 
 
 Viewing actual implicit parameters
@@ -16,7 +16,7 @@ Viewing actual implicit parameters
 
 1.  Highlight a method with an implicit parameter list.
 
-2.  CMD+SHIFT+P
+2.  `CMD` + `SHIFT` + `P`
 
 *See 'Viewing code without implicits' if you receive 'Parameter not found'*
 
@@ -29,7 +29,7 @@ The following requires modifying the code:
 
 2.  Highlight appropriate implicit conversion function.
 
-3.  ALT+ENTER (and then ENTER to select 'Make Explicit').
+3.  `ALT` + `ENTER` (and then `ENTER` to select 'Make Explicit').
 
 4.  Perform steps in 'Viewing actual implicit parameters'.
 
