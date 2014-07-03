@@ -10,7 +10,7 @@ JetBrains provides a [document explaining the first two steps][working-with-scal
 Viewing implicit conversions<a name="implicit-conversions"></a>
 ----------------------------
 
-1.  Highlight the converted type.
+1.  Highlight the implicitly converted object.
 
     **Important:** When investigating a conversion that introduces a pimped method, you MUST highlight the object only, NOT the pimped method. This is because the object is what's being converted. Selecting the method too will attempt to resolve the implicit conversion on the type returned by the pimped method, which probably isn't what you want to do!
 
@@ -19,7 +19,7 @@ Viewing implicit conversions<a name="implicit-conversions"></a>
 Viewing actual implicit parameters<a name="actual-implicits"></a>
 ----------------------------------
 
-1.  Highlight a method with an implicit parameter list.
+1.  Highlight the method call-site.
 
 2.  `CMD` + `SHIFT` + `P`
 
@@ -30,7 +30,7 @@ Viewing actual implicit parameters on implicit conversions<a name="actual-implic
 
 The following requires modifying the code:
 
-1.  Perform steps in 'Viewing implicit conversions'
+1.  Perform steps in [Viewing implicit conversions](#implicit-conversions).
 
 2.  Highlight appropriate implicit conversion function.
 
