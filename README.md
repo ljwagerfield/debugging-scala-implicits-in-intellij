@@ -12,7 +12,7 @@ Viewing implicit conversions<a name="implicit-conversions"></a>
 
 1.  Highlight the implicitly converted object.
 
-    **Important:** When investigating a conversion that introduces a pimped method, you MUST highlight the object only, NOT the pimped method. This is because the object is what's being converted. Selecting the method too will attempt to resolve the implicit conversion on the type returned by the pimped method, which probably isn't what you want to do!
+    **Important:** When investigating a pimped method, you MUST highlight the object only, NOT the pimped method. This is because the object is what's being converted. Selecting the method too will attempt to resolve the implicit conversion on the type returned by the pimped method, which probably isn't what you want to do!
 
 2.  `CTRL` + `Q`
 
