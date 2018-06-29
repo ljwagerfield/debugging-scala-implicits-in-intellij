@@ -54,4 +54,4 @@ resolve implicit parameters:
 
 4.  Re-run step 1.
 
-[working-with-scala-implicit-conversions]: http://confluence.jetbrains.com/display/IntelliJIDEA/Working+with+Scala+Implicit+Conversions "Working with Scala Implicit Conversions"
+[working-with-scala-implicit-conversions]: https://www.jetbrains.com/help/idea/edit-scala-code.html#d211642e132 "Working with Scala Implicit Conversions"
